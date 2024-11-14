@@ -12,6 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(180deg, rgba(37, 132, 244, 0.15) -140.54%, rgba(37, 132, 244, 0) 100%)",
+        "development-sidebar":
+          "linear-gradient(180deg, rgba(37, 132, 244, 0.15) -140.54%, rgba(37, 132, 244, 0) 100%)",
+        "button-gradient":
+          "linear-gradient(111.43deg, #2584F4 14.1%, #2FC88B 85.9%)",
+      },
     },
   },
   plugins: [],

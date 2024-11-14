@@ -25,3 +25,22 @@ body {
     text-wrap: balance;
   }
 }
+#primary_button {
+  background: linear-gradient(111deg, #2584f4 14.1%, #2fc88b 85.9%);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+#about_us > span {
+  background: linear-gradient(111deg, #2584f4 14.1%, #2fc88b 85.9%);
+  /* background: var(
+    --Color-Gradient-Button,
+    linear-gradient(111deg, #2584f4 14.1%, #2fc88b 85.9%)
+  ); */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
